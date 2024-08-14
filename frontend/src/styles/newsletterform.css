@@ -1,0 +1,52 @@
+
+
+/* Estilo para el formulario */
+#newsletterform {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para las etiquetas */
+#newsletterform label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el campo de entrada */
+#newsletterform input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#newsletterform input[type="email"]:focus {
+    outline: none;
+}
+
+#subtmitBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#subtmitBtn button:hover {
+    background-color: #0056b3;
+}
+
+#subtmitBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #d9534f;
+}
+.success-message {
+    color: #000000;
+}

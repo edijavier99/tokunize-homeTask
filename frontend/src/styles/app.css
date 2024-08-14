@@ -1,0 +1,7 @@
+
+#learmoreBtn{
+  transition: transform 0.3s ease-in-out;
+}
+#learmoreBtn:hover {
+  transform: translateY(-10%); /* Mueve la tarjeta un 10% hacia arriba en hover */
+}

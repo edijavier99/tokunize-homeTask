@@ -1,0 +1,10 @@
+/* WhyUsCard.css */
+.custom-card {
+    min-height: 250px; /* Ajusta esta altura según tus necesidades */
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px !important; /* Asegura el borde redondeado */
+}
+
+.custom-card:hover {
+    transform: translateY(-8%); /* Mueve la tarjeta un 10% hacia arriba en hover */
+}
